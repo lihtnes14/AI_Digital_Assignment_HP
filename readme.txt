@@ -1,16 +1,22 @@
-# 🤖 Lendora Chatbot using LangGraph + Groq
+# 💬 Lendora LangGraph Chatbot
 
-This Streamlit chatbot app leverages [LangGraph](https://github.com/langchain-ai/langgraph) and [Groq’s LLM](https://groq.com/) to provide blazing-fast chat experiences powered by `gemma2-9b-it`.
+A blazing-fast **Streamlit web app** that lets you **chat seamlessly with an AI assistant** powered by **LangGraph** and **Groq’s LLM** (`gemma2-9b-it`). Designed for responsiveness, clarity, and streaming conversations in real time.
 
----
+## ✨ Features
 
-## 🧠 Tech Stack
+- ⚡ **Ultra-fast responses**: Powered by Groq’s `gemma2-9b-it` model for near-instantaneous replies.
+- 🧠 **LangGraph-powered state logic**: Structured node-based graph for handling conversations.
+- 🔁 **Streaming responses**: Smooth message streaming with real-time updates.
+- 💬 **Conversation memory**: Retains chat history with Streamlit's `session_state`.
+- 🎨 **Minimal, centered UI**: Clean and focused chat interface built with Streamlit.
 
-- **LLM**: `gemma2-9b-it` via Groq API
-- **Framework**: LangGraph
-- **Frontend**: Streamlit
-- **Memory**: Session-based using Streamlit's `session_state`
-- **State Management**: TypedDict + LangGraph StateGraph
+## 🛠 Tech Stack
+
+- **Frontend:** Streamlit
+- **LLM:** Groq `gemma2-9b-it`
+- **State Management:** LangGraph (`StateGraph`, `TypedDict`)
+- **Streaming & Display:** Streamlit’s `chat_message` API
+- **Secrets Management:** Python-dotenv (`.env` file)
 
 ---
 
@@ -20,7 +26,8 @@ Follow these steps to set up and run the app locally:
 
 ### 1. Clone the Repository
 
+First, clone the repository to your local machine:
+
 ```bash
-git clone https://github.com/Hari-prahalad/lendora-chatbot.git
-cd lendora-chatbot
-```
+git clone https://github.com/your-username/lendora-langgraph-chatbot.git
+cd lendora-langgraph-chatbot
