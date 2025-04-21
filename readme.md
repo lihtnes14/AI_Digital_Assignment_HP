@@ -33,6 +33,24 @@ Follow these steps to set up and run the app locally:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/lendora-langgraph-chatbot.git
+git clone https://github.com/Hari-prahalad/AI_Digital_Assignment_HP.git
 cd lendora-langgraph-chatbot
+```
+
+### 2. Create .env file and enter the GROQ API KEY
+```bash
+touch .env
+```
+### 3. Create virtual environment and install the required dependcies
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 4. Run the def.py in streamlit
+```bash
+streamlit run def.py
+```
+
 
